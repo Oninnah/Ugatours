@@ -1,0 +1,19 @@
+body{
+    font-family: tahoma;
+    font-size: 20px;
+    background-color: green;
+}
+button{
+    background-color: blue;
+    font-family: tahoma;
+    font-size: 20px;
+    padding: 10px;
+}
+a{
+    font-family: tahoma;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}

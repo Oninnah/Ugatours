@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Prince">
+        <meta name="description" content="Offical website for Uga tours">
+        <link rel="stylesheet" href="signup.css">
+        <title>Signup Page</title>
+    </head>
+    <body>
+        <h1>UGA TOURS</h1>
+        <p>
+            <a href="login.html" target="_blank">
+        <button>LOGIN</button>
+        </a>
+        </p>
+        <hr>
+
+        <menu type="toolbar">
+            <nav>
+                <a href="./home.html">Home</a>
+                &nbsp;
+                <a href="./tourpack.html">Tour packages</a>
+                &nbsp;
+                <a href="./aboutus.html">About us</a>
+                &nbsp;
+            </nav>
+            
+            <br>
+
+            <form action="signup.php" method="post">
+                <fieldset>
+
+                <p>
+                <label for="firstName"> First Name: </label>
+                <input type="text" name="firstName" id="firstName" placeholder="jane" autocomplete="on" required > 
+                </p>
+
+                <p>
+                <label for="lastName"> Last Name: </label>
+                <input type="text" name="lastName" id="lastName" placeholder="doe" autocomplete="on" required > 
+                </p>
+                
+                <p>
+                <label for="password"> Password: </label>
+                <input type="password" name="password" id="password" placeholder="8 charaters" required> 
+                </p>
+
+                <p>
+                <label for="Phone"> Phone number: </label>
+                <input type="tel" name="phone" id="phone" placeholder="256712345678" pattern="[0-9]{3}[0-9]{3}[0-9]{3}[0-9]{3}" required> 
+                </p>
+
+                <p>
+                 <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="welcome123@gmail.com" required>
+                </p>
+                </fieldset>
+
+                <br>
+                <button type="submit">Submit</button>
+
+                <br>
+        
+
+        <hr>
+
+<hr>
+    <footer>
+        &copy;Uga Tours
+
+    </footer>
+    <p> <a href="./home.html">Back to Home</a></p>
+    <p> <a href="./index.html">Back to Main</a></p>
+
+    </body>
+</html>

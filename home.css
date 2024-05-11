@@ -1,0 +1,26 @@
+body{
+    background-color: green;
+    font-family:tahoma ;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 25px;
+}
+a:hover{
+    color: white;
+    
+}
+.parks img{
+    width: 70%;
+    align-items: center;
+    margin-right: 600px;
+    margin-left: 100px;
+    height: 500px;
+}
+.parks figcaption{
+    font-family: tahoma;
+    font-size: 20px;
+    text-align: center;
+}

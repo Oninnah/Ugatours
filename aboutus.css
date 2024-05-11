@@ -1,0 +1,27 @@
+.heading p {
+font-family: Tahoma;    
+font-size: 30px;
+font-style: italic;
+margin-top: -50px;
+}
+.heading{
+    font-family: tahoma;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.info{
+    font-family: tahoma;
+    font-size: 30px;
+}
+body{
+    background-color: green;
+}
+a{
+    font-family: tahoma;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:white;
+}
